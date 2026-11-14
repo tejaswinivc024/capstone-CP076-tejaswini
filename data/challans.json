@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "challan_id": 1,
+        "vehicle_number": "KA04MR9930",
+        "offence": "Triple riding",
+        "fine": 1000,
+        "status": "Paid"
+    },
+    {
+        "challan_id": 2,
+        "vehicle_number": "KA04MR1120",
+        "licence_number": "1234",
+        "offence": "Signal jump",
+        "offence_date": "2026-11-14",
+        "area": "Shakarnagar",
+        "fine": 500,
+        "status": "Paid"
+    }
+]

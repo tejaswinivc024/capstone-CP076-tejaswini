@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "name": "Test Offence",
+        "fine": 500
+    },
+    {
+        "name": "Triple riding",
+        "fine": 1000
+    },
+    {
+        "name": "Signal jump",
+        "fine": 500
+    },
+    {
+        "name": "No helmet",
+        "fine": 500
+    },
+    {
+        "name": "Over Speed",
+        "fine": 1000
+    }
+]
