@@ -118,8 +118,8 @@ capstone-CP076-tejaswini/
 ├── README.md
 └── .gitignore
 
-
 Sample Run
+
 ========================================
              CHALLANTRACK
  Traffic Violation and Penalty Management
