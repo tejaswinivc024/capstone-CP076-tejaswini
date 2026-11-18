@@ -15,5 +15,35 @@
         "area": "Shakarnagar",
         "fine": 500,
         "status": "Paid"
+    },
+    {
+        "challan_id": 3,
+        "vehicle_number": "KA02P9401",
+        "licence_number": "2345",
+        "offence": "Over Speed",
+        "offence_date": "2026-11-18",
+        "area": "Jaynagar",
+        "fine": 1000,
+        "status": "Paid"
+    },
+    {
+        "challan_id": 4,
+        "vehicle_number": "KA02P3456",
+        "licence_number": "2345",
+        "offence": "Triple riding",
+        "offence_date": "2026-11-18",
+        "area": "HEBBAL",
+        "fine": 1000,
+        "status": "Paid"
+    },
+    {
+        "challan_id": 5,
+        "vehicle_number": "KA02P2345",
+        "licence_number": "2345",
+        "offence": "Signal jump",
+        "offence_date": "2026-11-18",
+        "area": "Hebbal",
+        "fine": 500,
+        "status": "Pending"
     }
 ]

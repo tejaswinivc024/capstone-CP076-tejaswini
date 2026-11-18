@@ -18,5 +18,9 @@
     {
         "name": "Over Speed",
         "fine": 1000
+    },
+    {
+        "name": "Over speeding",
+        "fine": 1500
     }
 ]
