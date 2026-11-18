@@ -1,50 +1,101 @@
-# ChallanTrack – Traffic Violation and Penalty Management System
+CP-076 ChallanTrack: Traffic Violation and Penalty Management System
 
-## Project Overview
+Team
 
-ChallanTrack is a Python-based Traffic Violation and Penalty Management System designed to simplify the process of recording traffic violations, issuing challans, managing fine payments, and tracking repeat offenders.
+- Tejaswini V C – 1AT24CS238
+- Sony R – 1AT24CS213
+- Track: Python
 
-The system maintains organized records of traffic offences and provides an easy way to monitor pending challans, outstanding fines, driving licence status, and area-wise offence statistics.
+Project Overview
 
-## Problem Statement
+ChallanTrack is a Python-based Traffic Violation and Penalty Management System designed to simplify the process of managing traffic offences, generating challans, tracking payments and identifying repeat offenders.
 
-Traffic police need an efficient way to issue fines, maintain violation records, and identify vehicles with repeated traffic offences. Managing these records manually can make it difficult to track payments, monitor driving licence status, and identify areas with frequent traffic violations.
+The system allows users to maintain offence records, validate vehicle registration numbers, calculate increased fines for repeated violations and monitor pending challan payments. It also provides driving licence status management and area-wise offence reports.
 
-ChallanTrack aims to address these challenges through a simple and organized digital system.
+The application uses JSON files to store and manage records.
 
-## Objectives
+How to Run
 
-- Maintain a record of traffic offences and their fine amounts.
-- Issue challans to vehicles after validating vehicle registration numbers.
-- Identify repeat offences and increase fines accordingly.
-- Record challan payments.
-- Display pending challans and total outstanding amounts for vehicles.
-- Monitor driving licence status based on offences committed within one year.
-- Generate reports showing common traffic offences in different areas.
+Prerequisites:
 
-## Core Features
+- Python 3.x installed on the system.
+- Git 
 
-1. **Offence Management:** Add and view traffic offences with their corresponding fine amounts.
-2. **Vehicle Number Validation:** Validate vehicle registration number formats before generating challans.
-3. **Challan Generation:** Generate challans for vehicles based on selected traffic offences.
-4. **Repeat Offender Management:** Increase fines for repeated offences by the same vehicle.
-5. **Payment Tracking:** Record challan payments and update payment status.
-6. **Pending Challan Management:** View unpaid challans and calculate the total pending amount for a vehicle.
-7. **Driving Licence Management:** Register driving licences and check their current status.
-8. **Driving Licence Suspension:** Automatically suspend a driving licence when the licence holder receives 5 or more offences within a year.
-9. **Area-wise Offence Reports:** Generate reports showing the number of different traffic offences recorded in each area and identify the most common offence.
+Step 1: Clone the repository
 
-## Technology Stack
+git clone https://github.com/tejaswinivc024/capstone-CP076-tejaswini.git
 
-- **Programming Language:** Python
-- **Development Environment:** Visual Studio Code
-- **Data Storage:** JSON
-- **Libraries:** Python Standard Library
-- **Version Control:** Git and GitHub
+Step 2: Navigate to the project directory
 
-## Project Structure
+cd capstone-CP076-tejaswini
 
-```text
+Step 3: Run the application
+
+python challantrack.py
+
+Features That Work
+
+1. Offence Management
+   
+   - Add new traffic offences with their respective fine amounts.
+   - View the list of available offences.
+   - Prevent duplicate offence entries.
+
+2. Vehicle Number Validation
+   
+   - Validate vehicle registration numbers using a predefined format.
+   - Prevent challan generation for invalid vehicle numbers.
+
+3. Challan Generation
+   
+   - Generate challans by selecting an offence and entering vehicle and driving licence details.
+   - Store challan details, including offence date, area, fine amount and payment status.
+
+4. Repeat Offender Management
+   
+   - Identify repeated offences committed by the same vehicle.
+   - Automatically increase the fine amount for repeated violations of the same offence.
+
+5. Payment Management
+   
+   - Record payments against generated challans.
+   - Update challan status to Paid after successful payment confirmation.
+   - Prevent duplicate payments for already-paid challans.
+
+6. Pending Challan Management
+   
+   - View all generated challans.
+   - Display pending challans.
+   - Search pending dues using a vehicle number.
+   - Calculate the total outstanding amount for a vehicle.
+
+7. Driving Licence Management
+   
+   - Register driving licences.
+   - Check the current licence status.
+   - Track offences associated with a registered licence.
+
+8. Driving Licence Suspension
+   
+   - Count offences committed within the last year.
+   - Automatically suspend a licence when the offence count reaches 5 or more.
+
+9. Area-wise Offence Report
+   
+   - Generate reports based on the areas where offences occurred.
+   - Display offence counts for each area.
+   - Identify the most common offence in each area.
+
+Technologies Used
+
+- Programming Language: Python
+- Data Storage: JSON
+- Development Environment: Visual Studio Code
+- Version Control: Git
+- Repository Hosting: GitHub
+
+Project Structure
+
 capstone-CP076-tejaswini/
 │
 ├── data/
@@ -66,34 +117,25 @@ capstone-CP076-tejaswini/
 ├── challantrack.py
 ├── README.md
 └── .gitignore
-```
 
-## How to Run
+Sample Run
 
-1. Install Python on your system.
-2. Clone this repository:
+========================================
+             CHALLANTRACK
+ Traffic Violation and Penalty Management
+========================================
+1. Offence Management
+2. Generate Challan
+3. View All Challans
+4. Record Challan Payment
+5. View Pending Challans
+6. View Vehicle Pending Dues
+7. Driving Licence Management
+8. Area-wise Offence Report
+9. Exit
+========================================
+Enter your choice (1-9):
 
-   ```bash
-   git clone https://github.com/tejaswinivc024/capstone-CP076-tejaswini.git
-   ```
+GitHub Repository
 
-3. Open the project folder in Visual Studio Code.
-4. Run the application from the project root directory:
-
-   ```bash
-   python challantrack.py
-   ```
-
-## Expected Outcome
-
-ChallanTrack provides a simple menu-driven application for managing traffic violations, generating challans, tracking payments, identifying repeat offenders, monitoring driving licence status, and analysing area-wise traffic offence records.
-
-The application uses JSON files to store offence details, challan records, and driving licence information.
-
-## Project Information
-
-- **Project Code:** CP-076
-- **Project Name:** ChallanTrack
-- **Domain:** Public Services, Utilities and Smart City
-- **Project Level:** Foundation
-- **Programming Language:** Python
+"ChallanTrack – CP-076" (https://github.com/tejaswinivc024/capstone-CP076-tejaswini.git)
