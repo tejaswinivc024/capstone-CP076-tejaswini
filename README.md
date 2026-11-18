@@ -19,7 +19,7 @@ How to Run
 Prerequisites:
 
 - Python 3.x installed on the system.
-- Git (if cloning the repository).
+- Git 
 
 Step 1: Clone the repository
 
@@ -118,8 +118,8 @@ capstone-CP076-tejaswini/
 ├── README.md
 └── .gitignore
 
-Sample Run
 
+Sample Run
 ========================================
              CHALLANTRACK
  Traffic Violation and Penalty Management
